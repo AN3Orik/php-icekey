@@ -1,4 +1,6 @@
 # ICE Cipher implementation for PHP
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey?ref=badge_shield)
+
 Original source: http://www.darkside.com.au/ice/
 
 # Usage example
@@ -12,3 +14,6 @@ $cryptedBytes = iceKey->encrypt($plainBytes);
 // And decrypt back
 $plainBytes2 = iceKey->decrypt($cryptedBytes);
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey?ref=badge_large)
