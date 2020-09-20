@@ -1,0 +1,30 @@
+{
+    "name": "an3o/php-icekey",
+    "description": "ICE Cipher implementation for PHP",
+	"type": "library",
+	"keywords": ["ice", "cipher", "cryptography", "encryption"],
+    "homepage": "https://github.com/AN3Orik/php-icekey",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "an3o\\IceKey\\": "src/"
+        }
+    },
+	"authors": [
+        {
+            "name": "Matthew Kwan",
+            "email": "mkwan@darkside.com.au",
+            "homepage": "http://www.darkside.com.au/",
+            "role": "Developer"
+        },
+        {
+            "name": "Anton Lasevich",
+            "email": "mostproduct@gmail.com",
+            "homepage": "https://github.com/AN3Orik",
+            "role": "Developer"
+        }
+    ]
+}
