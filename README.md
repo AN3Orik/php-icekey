@@ -12,3 +12,12 @@ $cryptedBytes = iceKey->encrypt($plainBytes);
 // And decrypt back
 $plainBytes2 = iceKey->decrypt($cryptedBytes);
 ```
+
+## Install
+
+Install of the library and its dependencies via [Composer](http://getcomposer.org/).
+
+``` bash
+curl -s http://getcomposer.org/installer | php
+php composer.phar update
+```
