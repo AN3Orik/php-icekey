@@ -15,5 +15,13 @@ $cryptedBytes = iceKey->encrypt($plainBytes);
 $plainBytes2 = iceKey->decrypt($cryptedBytes);
 ```
 
+## Install
+
+Install of the library and its dependencies via [Composer](http://getcomposer.org/).
+
+``` bash
+composer require an3o/php-icekey
+```
+
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAN3Orik%2Fphp-icekey?ref=badge_large)

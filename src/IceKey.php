@@ -1,12 +1,19 @@
 <?php
-
 /***
- * Implementation of the ICE encryption algorithm.
- * http://www.darkside.com.au/ice/
+ * PHP Implementation of the ICE encryption algorithm (http://www.darkside.com.au/ice/)
  *
+ * Usage:
+ * $iceKey = new IceKey(0, array(0x11, 0x22, 0x33, 0x44, 0x54, 0x55, 0x66, 0x77));
+ * $bytes = array(0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10);
+ * $encryptedBytes = iceKey->encrypt($bytes);
+ * $decryptedBytes = iceKey->decrypt($cryptedBytes);
+ * 
  * @author Matthew Kwan
  * @author ANZO (PHP Implementation)
  */
+
+namespace an3o\IceKey;
+
 class IceKey {
     private $size;
     private $rounds;
